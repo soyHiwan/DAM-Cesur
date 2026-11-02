@@ -61,7 +61,7 @@ Tras mostrar el resultado por consola y ver que se queda en un bucle infinito, h
   
 Para la resolución del enunciado y responder adecuadamente a las preguntas consideraremos que la **creación de este bucle infinito es intencionado**.  
   
-A continuación, mostramos la actividad del código, aquello que está en rojo es que la instrucción no se ha ejecutado por ello, mientras que el verde sí y amarillo con condición pendiente de recorrer.
+A continuación, mostramos la actividad del código, aquello que está en rojo es que la instrucción no se ha ejecutado, mientras que el verde sí se ha ejecutado y en amarillo es el código con condición pendiente de recorrer.
 
 ``` java
 public class Tarea02 {
