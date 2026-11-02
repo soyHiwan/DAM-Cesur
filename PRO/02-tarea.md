@@ -17,7 +17,7 @@ Dado el siguiente diagrama de flujo:
 
     4.  ¿Qué valores van tomando las variables durante la ejecución?
 
-![Diagrama Descripción generada automáticamente](PRO_UD2/media/image1.png)
+![Diagrama Descripción generada automáticamente](assets/02-tarea-image1.png)
 
 **La resolución del documento también se puede ver en git:**  
 - **Git general:** https://github.com/soyHiwan/DAM-Cesur
@@ -90,7 +90,7 @@ public class Tarea02 {
 
 Captura de eclipse con la muestra de la consola en bucle infinito.  
   
-![](PRO_UD2/media/image2.png)
+![](assets/02-tarea-image2.png)
 
 En la consola de eclipse podemos ver que el valor de dato2 siempre es 1, por lo que siempre se cumple la condición de *while(dato2\<dato)*, como consecuencia nunca sale de ese while y se crea un bucle infinito.
 
@@ -354,7 +354,7 @@ dato = 256
 
 **Nuevo Diagrama:**
 
-![Diagrama corregido con incremento de dato2](PRO_UD2/media/image3.png)
+![Diagrama corregido con incremento de dato2](assets/02-tarea-image3.png)
 
 **Mis primeras experiencias con java:**
 
