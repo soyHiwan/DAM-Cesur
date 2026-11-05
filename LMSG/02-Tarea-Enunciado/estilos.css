@@ -1,0 +1,21 @@
+#titulo{
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,1);
+}
+p.azul,
+p:nth-child(2){
+    color:rgba(0,0,255,1)
+}
+p:nth-child(3){
+    color: rgba(0,255,0,1);
+}
+table,
+td{
+    border: 1px solid rgba(0,0,0,1); 
+    color:rgba(0,0,255,1)
+}
+th{
+    font-weight: bold;
+    background-color: rgba(255, 255, 0,1);
+}

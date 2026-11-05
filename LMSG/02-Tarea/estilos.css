@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:rgba(10,10,10,1);
+}
+
+h1,
+#titulo{
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,1);
+}
+
+main{
+    .azul{
+        color:rgba(0,0,255,1)
+    }
+    .verde{
+        color: rgba(0,255,0,1);
+    }
+
+    table{
+        color:rgba(0,0,255,1);
+        &, td, th, tr{
+            border: 1px solid rgba(0,0,0,1); 
+        }
+        thead, 
+        th{
+            font-weight: bold;
+            background-color: rgba(255, 255, 0,1);
+        }    
+    }
+}
