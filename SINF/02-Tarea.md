@@ -57,25 +57,25 @@ Se usará el software recomendado por el enunciado, VirtualBox, ya que es válid
 
 La url desde donde podemos descargarnos el programa es: https://www.virtualbox.org/, según nuestro sistema operativo base: MacOs / Apple Silicon hosts.
 
-![Captura 01](images/captura-01.png)
+![Captura 01](assets/02-Tarea-captura-01.png)
 
 A continuación, mostramos una serie de capturas del proceso de instalación:
 
 a. Descarga e instalación e inicio de la app de instalación:
 
-![Captura 02](images/captura-02.png)
+![Captura 02](assets/02-Tarea-captura-02.png)
 
 b.  Inicio instalación:
 
-![Captura 03](images/captura-03.png)
+![Captura 03](assets/02-Tarea-captura-03.png)
 
 c. instalación:
 
-![Captura 04](images/captura-04.png)
+![Captura 04](assets/02-Tarea-captura-04.png)
 
 d. finalización:
 
-![Captura 05](images/captura-05.png)
+![Captura 05](assets/02-Tarea-captura-05.png)
 
 ## 2. Instalación de Debian en una máquina virtual
 
@@ -87,7 +87,7 @@ A continuación se irá mostrando el proceso que se ha llevado, mediante captura
 
 a. Se ha descargado la imagen del sistema operativo Linux Debian 13 ARM64, desde el enlace: https://www.debian.org/releases/stable/, https://www.debian.org/distrib/netinst
 
-![Captura 06](images/captura-06.png)
+![Captura 06](assets/02-Tarea-captura-06.png)
 
 b. Se ha abierto VirtualBox y comprobamos que el programa funciona sin ningún error ni impedimento. Procedemos a crear la máquina virtual:
 
@@ -95,29 +95,29 @@ b.1. Proceso:
 
 1. Se pulsa Nueva.
 
-![Captura 07](images/captura-07.png)
+![Captura 07](assets/02-Tarea-captura-07.png)
 
 2. Se escribe Debian-DAM-UD2 y selecciona la ISO de Debian.
 
-![Captura 08](images/captura-08.png)
+![Captura 08](assets/02-Tarea-captura-08.png)
 
 3. Se asigna 8192 MB de RAM, equivalentes a 8 GB y 4 procesadores virtuales.
 
-![Captura 09](images/captura-09.png)
+![Captura 09](assets/02-Tarea-captura-09.png)
 
 4. Crea un disco virtual nuevo de 40 GB.
 
-![Captura 10](images/captura-10.png)
+![Captura 10](assets/02-Tarea-captura-10.png)
 
 5. Finaliza la creación.
 
-![Captura 11](images/captura-11.png)
+![Captura 11](assets/02-Tarea-captura-11.png)
 
 ### 2.2. Inicio de la máquina e incidencias encontradas
 
 a. damos a iniciar y nos saltan mensajes de accesos de mac para el uso del programa La solución es ir a la configuración de macOS y dar los privilegios adecuados a VirtualBox
 
-![Captura 12](images/captura-12.png)
+![Captura 12](assets/02-Tarea-captura-12.png)
 
 Errores que han surgido:
 
@@ -125,29 +125,29 @@ Errores que han surgido:
 
 - **Ausencia de unidad óptica virtual:** al iniciar la máquina apareció el mensaje «No bootable option or device was found». Al revisar el almacenamiento, se comprobó que únicamente estaba conectado el disco duro virtual, todavía sin sistema operativo, y que faltaba la unidad óptica desde la que cargar el instalador. Se solucionó añadiendo una unidad óptica al controlador VirtioSCSI y se conectó la imagen ISO de Debian ARM64. Después de guardar los cambios y reiniciar la máquina, apareció el menú de instalación de Debian, confirmando que el problema estaba resuelto.
 
-![Captura 13](images/captura-13.png)
+![Captura 13](assets/02-Tarea-captura-13.png)
 
 ### 2.3. Instalación y configuración de Debian
 
 Tras solucionar los errores, podemos iniciar la instalación mediante “Graphical install”
 
-![Captura 14](images/captura-14.png)
+![Captura 14](assets/02-Tarea-captura-14.png)
 
-![Captura 15](images/captura-15.png)
+![Captura 15](assets/02-Tarea-captura-15.png)
 
-![Captura 16](images/captura-16.png)
+![Captura 16](assets/02-Tarea-captura-16.png)
 
-![Captura 17](images/captura-17.png)
+![Captura 17](assets/02-Tarea-captura-17.png)
 
-![Captura 18](images/captura-18.png)
+![Captura 18](assets/02-Tarea-captura-18.png)
 
 Se ha dejado el nombre de dominio vacío, ya que la máquina virtual se utilizará como equipo de pruebas y no se integrará en un dominio corporativo.
 
-![Captura 19](images/captura-19.png)
+![Captura 19](assets/02-Tarea-captura-19.png)
 
 Se ha dejado vacía la contraseña de root para deshabilitar su acceso directo mediante contraseña. La administración se realizará desde el usuario inicial mediante sudo.
 
-![Captura 20](images/captura-20.png)
+![Captura 20](assets/02-Tarea-captura-20.png)
 
 Se ha creado una cuenta personal con el nombre de usuario «ivan» para utilizar el sistema y realizar tareas administrativas mediante sudo.
 
@@ -155,23 +155,23 @@ Se muestran los pasos principales de la instalación, omitiendo las pantallas re
 
 ### 2.4. Particionado y selección de programas
 
-![Captura 21](images/captura-21.png)
+![Captura 21](assets/02-Tarea-captura-21.png)
 
 Se ha seleccionado el particionado guiado para distribuir automáticamente el espacio del disco virtual. Se utilizará una partición independiente para /home, separando los archivos personales de los archivos del sistema.
 
-![Captura 22](images/captura-22.png)
+![Captura 22](assets/02-Tarea-captura-22.png)
 
 Se ha seleccionado Xfce como entorno de escritorio por su sencillez y consumo moderado de recursos, junto con las utilidades estándar del sistema. No se han instalado servicios web ni SSH, al no ser necesarios para las pruebas previstas.
 
-![Captura 23](images/captura-23.png)
+![Captura 23](assets/02-Tarea-captura-23.png)
 
 ### 2.5. Finalización y primer inicio
 
-![Captura 24](images/captura-24.png)
+![Captura 24](assets/02-Tarea-captura-24.png)
 
-![Captura 25](images/captura-25.png)
+![Captura 25](assets/02-Tarea-captura-25.png)
 
-![Captura 26](images/captura-26.png)
+![Captura 26](assets/02-Tarea-captura-26.png)
 
 La instalación ha finalizado correctamente y se ha iniciado sesión en Debian con el entorno gráfico Xfce. Se comprueba así que el sistema operativo arranca desde el disco virtual y permite acceder al escritorio.
 
@@ -187,15 +187,15 @@ Además de VirtualBox, existen otras herramientas que permiten crear máquinas v
 
 ### Imagen de referencia: UTM
 
-![Captura 27](images/captura-27.png)
+![Captura 27](assets/02-Tarea-captura-27.png)
 
 ### Imagen de referencia: Parallels Desktop
 
-![Captura 28](images/captura-28.png)
+![Captura 28](assets/02-Tarea-captura-28.png)
 
 ### Imagen de referencia: Hyper-V
 
-![Captura 29](images/captura-29.png)
+![Captura 29](assets/02-Tarea-captura-29.png)
 
 ## Conclusiones
 
