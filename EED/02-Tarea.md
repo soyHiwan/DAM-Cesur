@@ -35,30 +35,30 @@ Para instalar IntelliJ IDEA, he accedido a la web oficial de JetBrains y he segu
 
 ### 1.1. Acceso a la web oficial de JetBrains en la sección de IntelliJ IDEA: https://www.jetbrains.com/es-es/idea/
 
-![Captura del documento](images/image1.png)
+![Captura del documento](assets/02-Tarea-image1.png)
 
 ### 1.2. . Acceso a la opción de descarga del IDE: https://www.jetbrains.com/es-es/idea/download/?section=mac
 
-![Captura del documento](images/image2.png)
+![Captura del documento](assets/02-Tarea-image2.png)
 
 ### 1.3. Confirmación de la descarga del programa (app): <https://www.jetbrains.com/es-es/idea/download/download-thanks.html?platform=macM1>  
-![Captura del documento](images/image3.png)
+![Captura del documento](assets/02-Tarea-image3.png)
 
-![Captura del documento](images/image4.png)
+![Captura del documento](assets/02-Tarea-image4.png)
 
 ### 1.4. Copia de la aplicación en la carpeta Aplicaciones (instalación básica de macOS):
 
-![Captura del documento](images/image5.png)
+![Captura del documento](assets/02-Tarea-image5.png)
 
 ### 1.5. Proceso de instalación y autoconfiguración:
 
-![Captura del documento](images/image6.png)
+![Captura del documento](assets/02-Tarea-image6.png)
 
-![Captura del documento](images/image7.png)
+![Captura del documento](assets/02-Tarea-image7.png)
 
 ### 1.6. . Instalación completada:
 
-![Captura del documento](images/image8.png)
+![Captura del documento](assets/02-Tarea-image8.png)
 
 La descarga e instalación de IntelliJ IDEA no ha sido complicada. El proceso ha sido sencillo, guiado y sin problemas.
 
@@ -91,11 +91,11 @@ Personalmente, me ha resultado mucho más fácil instalar IntelliJ IDEA que Ecli
 
 **IntelliJ IDEA**
 
-![Interfaz de IntelliJ IDEA](images/image9.jpeg)
+![Interfaz de IntelliJ IDEA](assets/02-Tarea-image9.jpeg)
 
 **Eclipse IDE**
 
-![Interfaz de Eclipse IDE](images/image10.jpeg)
+![Interfaz de Eclipse IDE](assets/02-Tarea-image10.jpeg)
 
 
 ###  Ventajas e inconvenientes:
@@ -109,7 +109,7 @@ Personalmente, me ha resultado mucho más fácil instalar IntelliJ IDEA que Ecli
 
 ### Número de usuarios y popularidad:
 
-![Captura del documento](images/image11.png)
+![Captura del documento](assets/02-Tarea-image11.png)
 
 | **IDE**           | **Personas que lo utilizan en la encuesta** | **Porcentaje** |
 |-------------------|---------------------------------------------|----------------|
@@ -128,18 +128,18 @@ Ahora vamos a probar IntelliJ IDEA con un programa sencillo, para conocer su fun
 
 Pantalla de inicio de IntelliJ IDEA:
 
-![Captura del documento](images/image12.png)
+![Captura del documento](assets/02-Tarea-image12.png)
 
 Creación de un nuevo proyecto Java:
 
-![Captura del documento](images/image13.png)
+![Captura del documento](assets/02-Tarea-image13.png)
 
 Configuración del proyecto:
 
-![Captura del documento](images/image14.png)
+![Captura del documento](assets/02-Tarea-image14.png)
 
 Código Java y ejecución del programa:  
-![Captura del documento](images/image15.png)
+![Captura del documento](assets/02-Tarea-image15.png)
 
 Para realizar la prueba, he creado un proyecto Java y he escrito un programa sencillo que muestra un mensaje en la consola.
 
