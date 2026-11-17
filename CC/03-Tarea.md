@@ -69,7 +69,7 @@ Por tanto, el principal problema no está en el funcionamiento de la herramienta
 
 Para poder continuar con la tarea he decidido utilizar una combinación de versiones que sí esté disponible, intentando respetar al máximo los requisitos originales.
 
-![Captura de la tarea](images/image1.png)
+![Captura de la tarea](assets/03-Tarea-image1.png)
 
 ## 2. Alternativas para realizar la tarea
 
@@ -111,18 +111,18 @@ Como no dispongo de un servidor Horizon configurado, no puedo establecer una con
 
 Esta instalación no es necesaria para consultar la compatibilidad de los Thin Clients, pero me ha servido para conocer mejor el funcionamiento de Horizon Client.
 
-![Captura de la tarea](images/image2.png)
+![Captura de la tarea](assets/03-Tarea-image2.png)
 
 
 **Proceso de instalación:**
 
-#### ![Captura de la tarea](images/image3.png)
+#### ![Captura de la tarea](assets/03-Tarea-image3.png)
 
-#### ![Captura de la tarea](images/image4.png)
+#### ![Captura de la tarea](assets/03-Tarea-image4.png)
 
-#### ![Captura de la tarea](images/image5.png)
+#### ![Captura de la tarea](assets/03-Tarea-image5.png)
 
-#### ![Captura de la tarea](images/image6.png)
+#### ![Captura de la tarea](assets/03-Tarea-image6.png)
 
 ## 4. Búsqueda de Thin Clients compatibles
 
@@ -144,9 +144,9 @@ Una vez aplicados los filtros, revisaré los modelos que aparecen en la tabla de
 
 ### Modelos encontrados
 
-![Captura de la tarea](images/image7.png)
+![Captura de la tarea](assets/03-Tarea-image7.png)
 
-![Captura de la tarea](images/image8.png)
+![Captura de la tarea](assets/03-Tarea-image8.png)
 
 *Figura 2. Resultados de la búsqueda de dispositivos HP compatibles con Horizon 7.13.*
 
@@ -192,10 +192,10 @@ Al consultar su ficha de compatibilidad en Omnissa, aparecen tres protocolos de 
 En el protocolo Blast Extreme he comprobado que admite las dos funcionalidades solicitadas en la tarea:
 
 - **Multi Monitor:** permite utilizar varios monitores con un mismo escritorio virtual.  
-  ![Captura de la tarea](images/image9.png)
+  ![Captura de la tarea](assets/03-Tarea-image9.png)
 
 - **Scanner Redirection:** permite acceder desde el escritorio virtual a un escáner conectado al dispositivo local.  
-  ![Captura de la tarea](images/image10.png)
+  ![Captura de la tarea](assets/03-Tarea-image10.png)
 
 Las dos funciones aparecen marcadas como *Supported* (compatible).
 
@@ -205,7 +205,7 @@ Por tanto, el HP t240 es uno de los modelos que podemos considerar adecuados par
   
 <https://interopmatrix.omnissa.com/Compatibility/thinclients/features/246>
 
-![Captura de la tarea](images/image11.png)
+![Captura de la tarea](assets/03-Tarea-image11.png)
 
 
 ### 5.2. HP t430 Thin Client
@@ -215,7 +215,7 @@ El HP t430 Thin Client es otro de los dispositivos encontrados en la guía de co
 Según su ficha, utiliza el sistema operativo HP ThinPro/Smart Zero Core (x64) y es compatible con Horizon 7.13 y Horizon Client 2006.
 
 Al consultar las características disponibles, he comprobado que mediante el protocolo Blast Extreme admite tanto Multi Monitor como Scanner Redirection.  
-![Captura de la tarea](images/image12.png)
+![Captura de la tarea](assets/03-Tarea-image12.png)
 
 Esto significa que permite utilizar varios monitores con un mismo escritorio virtual y acceder a un escáner conectado al equipo local.
 
@@ -225,7 +225,7 @@ Por tanto, el HP t430 es otro de los modelos que cumple las características sol
 
 <https://interopmatrix.omnissa.com/Compatibility/thinclients/features/253>  
   
-![Captura de la tarea](images/image13.png)
+![Captura de la tarea](assets/03-Tarea-image13.png)
 
 
 ### 5.3. Comparativa del resto de dispositivos
