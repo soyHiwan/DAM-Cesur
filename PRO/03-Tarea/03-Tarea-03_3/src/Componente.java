@@ -19,7 +19,7 @@ public class Componente {
 	public String getType () {
 		return this.type;
 	}
-	public void setType1 (String type) {
+	public void setType (String type) {
 		this.type = type;
 	}
 	
