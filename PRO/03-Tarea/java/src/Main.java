@@ -1,7 +1,12 @@
 
+// Relaciones representadas en UML:
+// Herencia: Informatico es un tipo de Empleado.
+// Asociacion: Informatico utiliza Ordenador; ambos son independientes.
+// Composicion: Ordenador esta formado por componentes.
+// Estas relaciones no se implementan en Java en esta unidad.
 //code
 public class Main {
-
+	
 	public static void main(String[] args) {
 	//Crear elementos
 		Empleado empleadoEmpty = new Empleado();
@@ -22,6 +27,15 @@ public class Main {
 		System.out.print("Dispone de un Ordenador " + ordenadorEmpty.getMarca() + " " + ordenadorEmpty.getModel() );
 		System.out.println(" con un " + componenteEmpty.getType());
 		System.out.println("");
+		// Asignamos valores a un objeto creado sin parametros
+		empleadoEmpty.setName("Pedro");
+		empleadoEmpty.setBirthDate("2001-05-10");
+		System.out.println("Empleado inicialmente null, ahora con datos:");
+		System.out.println("-----------------------------------------------");
+		System.out.println("Nombre: " + empleadoEmpty.getName());
+		System.out.println("Fecha de nacimiento: " + empleadoEmpty.getBirthDate());
+		System.out.println("Edad: " + empleadoEmpty.getAge());
+		System.out.println();
 		System.out.println("Datos empleado");
 		System.out.println("-----------------------------------------------");
 		System.out.println("Nombre: " + empleado1.getName());

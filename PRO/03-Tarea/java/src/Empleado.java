@@ -4,6 +4,8 @@ import java.time.Period;
 //Code
 public class Empleado {
 //variables
+	// Los atributos son private para evitar que otras clases
+	// puedan modificarlos directamente. Para acceder a ellos
 	private String id;
 	private String name;
 	private String birthDate;
@@ -16,6 +18,7 @@ public class Empleado {
 		this.birthDate = birthDate;
 	}
 //metodos
+	// utilizamos los getters y setters public.
 	public String getId ( ) {
 		return this.id;
 	}

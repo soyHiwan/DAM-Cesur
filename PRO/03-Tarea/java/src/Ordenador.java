@@ -1,5 +1,7 @@
 public class Ordenador {
 //variables
+	// Los atributos son private para evitar que otras clases
+	// puedan modificarlos directamente. Para acceder a ellos
 	private String id;
 	private String marca;
 	private String model;
@@ -12,6 +14,7 @@ public class Ordenador {
 		this.model = model;
 	}
 //metodos
+	// utilizamos los getters y setters public.
 	public String getId () {
 		return this.id;
 	}
